@@ -1,17 +1,14 @@
 package com.objectRelationship;
 
-class Vehicle {
+interface Vehicle {
     // Define the default constructor/ It is automatically defined by Java
-    Vehicle() {};
 
-    // Define methods
-    public void move(String firstName, String source, String destination) {
-        System.out.println("The passenger with firstName " + firstName);
-        System.out.println("He is moving from - " + source + " to - " + destination);
-    }
+    // Define an abstract method.
+    // We cannot create direct objects/instances of abstract class.
+    public abstract void move(String firstName, String source, String destination);
 }
 
-class Car extends Vehicle {
+class Car implements Vehicle {
     // Define the properties
     Car() {};
 
@@ -21,7 +18,7 @@ class Car extends Vehicle {
     }
 }
 
-class Metro extends Vehicle {
+class Metro implements Vehicle {
     // Define the properties
     Metro() {};
 

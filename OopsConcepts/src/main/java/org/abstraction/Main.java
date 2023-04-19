@@ -10,6 +10,5 @@ public class Main {
         // Creating employee instances
         Employee employee1 = new Employee();
         Employee employee2 = new Employee();
-
     }
 }

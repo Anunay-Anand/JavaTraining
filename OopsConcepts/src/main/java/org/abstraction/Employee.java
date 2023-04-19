@@ -1,5 +1,8 @@
 package org.abstraction;
 
+import org.encapsulation.Encapsulation;
+import org.encapsulation.VisibilityModifiers;
+
 // This class lays basic foundation of an employee entity
 public class Employee {
 
@@ -32,5 +35,16 @@ public class Employee {
             System.out.println("The updated salary is - " + newSalary);
         }
         return;
+    }
+}
+
+class Encapsulationhelper extends VisibilityModifiers {
+    public static void main(String[] args) {
+        // Only public data or method is accessible in a class from other package.
+        VisibilityModifiers test3 = new VisibilityModifiers();
+        System.out.println(test3.a);
+        // Although if we extend the class and make it a subClass. We can access public and protected.
+        Encapsulationhelper test4 = new Encapsulationhelper();
+        System.out.println(test4.b);
     }
 }
