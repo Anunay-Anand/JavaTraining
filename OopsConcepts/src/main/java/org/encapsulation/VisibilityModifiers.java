@@ -13,8 +13,8 @@ package org.encapsulation;
      protected void protectedMethod() {
          System.out.println("I'm a protected method");
      }
-     void DefaultMethod() {
-         System.out.println("I'm a  method");
+     void defaultMethod() {
+         System.out.println("I'm a default method");
      }
      private void privateMethod() {
          System.out.println("I'm a private method");
