@@ -8,7 +8,7 @@ public abstract class Account {
 }
 
 class SavingAccount extends Account {
-    private String fullName;
+    private final String fullName;
     public SavingAccount (String fullName, int balance) {
         this.fullName = fullName;
         this.balance = balance;
