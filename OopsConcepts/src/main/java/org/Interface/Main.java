@@ -9,6 +9,9 @@ public class Main {
         myStack.push(4);
         myStack.pop();
         myStack.printStack();
+        String name = "Anunay";
+        String name1 = new StringBuilder().append(name).reverse().toString();
+        System.out.println(name1);
 
         // ********************* Employee
         Employee fullTimeEmployee = new FullTimeEmployee(1, "Tom", 2000);

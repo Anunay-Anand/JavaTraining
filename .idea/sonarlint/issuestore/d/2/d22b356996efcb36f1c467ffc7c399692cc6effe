@@ -1,0 +1,20 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›¸£Ô
+
+java:S4165"dRemove this useless assignment; "salary" already holds the assigned value along all execution paths.(İè¨òıÿÿÿÿ
+}
+java:S4165"bRemove this useless assignment; "name" already holds the assigned value along all execution paths.(É´“ıÿÿÿÿ
+{
+java:S4165"`Remove this useless assignment; "id" already holds the assigned value along all execution paths.(£©èÚşÿÿÿÿ
+O
+java:S5993"9Change the visibility of this constructor to "protected".(‡™Ü
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(·ûÀÿÿÿÿÿ
+m
+java:S3038"R"getPay" is defined in the "Payable" interface and can be removed from this class.(â¤¢“ûÿÿÿÿ
+J
+java:S1656"/Remove or correct this useless self-assignment.(É´“ıÿÿÿÿ
+J
+java:S1656"/Remove or correct this useless self-assignment.(£©èÚşÿÿÿÿ
+J
+java:S1656"/Remove or correct this useless self-assignment.(İè¨òıÿÿÿÿ
